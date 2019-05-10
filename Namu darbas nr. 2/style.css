@@ -1,0 +1,30 @@
+body {
+    background-image: url("capture1.jpg");
+    background-repeat: repeat-x;
+    color: #c1c1c1;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(0, 128, 0, 0.63);
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-top-style: unset;
+    border-left-style: unset;
+    border-bottom-width: 3px;
+}
+
+td {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-left-style: unset;
+    border-bottom-width: 3px;
+}
+
+.marked {
+    background-color: white;
+    color: blue;
+}

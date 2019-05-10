@@ -1,0 +1,27 @@
+div {
+    margin: auto;
+    border: 15px;
+    color: white;
+}
+
+
+.first-class {
+
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    line-height: 200px;
+    width: 250px;
+
+}
+
+.second-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 310px;
+    height: 310px;
+
+}
