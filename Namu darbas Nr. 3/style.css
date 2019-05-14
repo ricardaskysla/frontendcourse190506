@@ -1,0 +1,47 @@
+.div-1 {
+    margin: auto;
+    background: white
+}
+.footer {
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 50%;
+}
+.header {
+    background: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+.meniu {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    height: 65%;
+    padding: 25px;
+    top: 25%;
+    border-left: 1px solid grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.info {
+    position: relative;
+    box-sizing: border-box;
+    float: right;
+    overflow: auto;
+    width: 75%;
+    height: 65%;
+    padding: 25px;
+    top: 25%;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+
+}
