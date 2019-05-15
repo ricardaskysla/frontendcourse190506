@@ -1,0 +1,23 @@
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+
+.type {
+    text-align: center;
+
+}
+
+div {
+    margin: auto;
+}
+
+.img {
+    -webkit-transition: -webkit-transform 0.35s cubic-bezier(0, 0, 1, 1) 0ms;
+}
+
+img.image_sized_column:hover, img.img:hover {
+    -webkit-transform: scale(0.80);
+}
