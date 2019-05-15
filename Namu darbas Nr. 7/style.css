@@ -1,0 +1,16 @@
+Body {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+
+}
+div {
+    box-sizing: border-box;
+    border: 5px solid white;
+    padding: 25px;
+
+}
+
+.hight_same {
+    height: 6em;
+}
