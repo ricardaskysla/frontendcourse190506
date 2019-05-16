@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color: #f2e1e1;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    color: white;
+}
+
+.text, h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.text2 {
+    text-align: center;
+    color: grey;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.big2-text {
+    font-size:64px;
+    font-weight: 400;
+    color: #grey;
+}
+.big-text {
+    font-size:64px;
+    font-weight: 400;
+}
+p {
+    text-align: center;
+}
+
+/* BEGIN: Navigation */
+.topnav {
+    overflow: hidden;
+    background-color: rgba(204, 204, 204, 0.43);
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.topnav:hover {
+    background-color: white;
+}
+.topnav a:hover {
+    background-color: #8d8d8d;
+}
+a.black-button:hover {
+    color: white ;
+    background-color: Black ;
+}
+.effect {
+    -webkit-transition: -webkit-transform 0.35s cubic-bezier(0, 0, 1, 1) 5ms;
+}
+a.effect:hover {
+    -webkit-transform: scale(0.80);  font-weight: bold;
+}
+/* END: Navigation */
+
+.info {
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    letter-spacing: 2px;
+}
+
+.button {
+    background: #000;
+    color: white;
+    padding: 12px 24px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 5% 43%;
+}
+
+.button1 {
+    background: #f88179;
+    color: white;
+    padding: 12px 24px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 5% 43%;
+}
+
+button:hover{
+    background: lightsteelblue;
+    color: black;
+}
+
+button1:hover{
+    background: lightsteelblue;
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.last {
+    margin: 10px 0;
+    float: left;
+    width: 49.9%;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+    box-sizing: border-box;
+}
+
+.apatinis {
+   background-color: #ffdddd;"
+}
