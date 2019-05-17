@@ -1,0 +1,35 @@
+body {
+    background-color: #282828;
+    margin-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navi {
+    margin: auto;
+    background-color: #2e2e2e;
+    color: #9f9f9f;
+    text-align: center;
+}
+/*BEGIN:Links*/
+i {
+    width: 30px;
+    height: 30px;
+    background-color: #8d8d8d;
+    border-radius: 50%;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: #db4a39;
+}
+a:active {
+    color: red;
+}
+/*END:Links*/

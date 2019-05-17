@@ -1,20 +1,13 @@
-body {
-    margin: 0;
-    background-color: #f2e1e1;
-}
 body, html {
+    margin: auto;
     height: 100%;
     width: 100%;
     font-family: "Raleway", sans-serif;
-
+    background-color: #f2e1e1;
 }
 * {
     box-sizing: border-box;
 }
-.header {
-    color: white;
-}
-
 .text, h2 {
     text-align: center;
     color: white;
@@ -22,24 +15,67 @@ body, html {
     font-weight: 400;
     letter-spacing: 4px;
 }
-.text2 {
+.smaller-grey-text {
     text-align: center;
     color: grey;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 4px;
 }
-.big2-text {
-    font-size:64px;
-    font-weight: 400;
-    color: #grey;
-}
-.big-text {
+.bigger-text {
     font-size:64px;
     font-weight: 400;
 }
 p {
     text-align: center;
+}
+.info {
+    width: 70%;
+    margin-top: 35px;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 2;
+    font-size: 14px;
+}
+.button {
+    background: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    padding: 20px 20px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 6%;
+}
+button:hover{
+    background: lightsteelblue;
+}
+a:link {
+    text-decoration: none;
+}
+.button1 {
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+    background: #f88179;
+    color: white;
+    padding: 12px 24px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 5% 43%;
+}
+
+.last {
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+    color: black;
+}
+
+.apatinis {
+   background-color: #ffdddd;"
 }
 
 /* BEGIN: Navigation */
@@ -74,59 +110,3 @@ a.effect:hover {
     -webkit-transform: scale(0.80);  font-weight: bold;
 }
 /* END: Navigation */
-
-.info {
-    text-align: justify;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    letter-spacing: 2px;
-}
-
-.button {
-    background: #000;
-    color: white;
-    padding: 12px 24px;
-    letter-spacing: 2px;
-    border-radius: 6px;
-    display: inline-block;
-    margin: 5% 43%;
-}
-
-.button1 {
-    background: #f88179;
-    color: white;
-    padding: 12px 24px;
-    letter-spacing: 2px;
-    border-radius: 6px;
-    display: inline-block;
-    margin: 5% 43%;
-}
-
-button:hover{
-    background: lightsteelblue;
-    color: black;
-}
-
-button1:hover{
-    background: lightsteelblue;
-    color: white;
-}
-a:link {
-    text-decoration: none;
-    color: white;
-}
-
-.last {
-    margin: 10px 0;
-    float: left;
-    width: 49.9%;
-    text-align: center;
-    line-height: 1.5;
-    color: black;
-    box-sizing: border-box;
-}
-
-.apatinis {
-   background-color: #ffdddd;"
-}
