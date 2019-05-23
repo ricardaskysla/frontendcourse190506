@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Namu darbas Nr.10</title>
+</head>
+<style>
+    body, html {
+        width: 100%;
+        height: 100%;
+        background-color: #262626;
+        margin: 25px auto;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    div {
+        margin: auto;
+    }
+
+    input, textarea {
+        width: 50%;
+
+    }
+</style>
+<body>
+
+<div style="padding: 15px; border: 1px solid black; width: 60%; height: 60%; background-color: #d4ffd5">
+    <form action="/action_page.php">
+        <div style="border: 1px solid black; width: 30%; height: 60%; float: left; text-align: right; ">
+            <pre style="font-family: Arial; font-size: 17px;">
+            <label for="text" >Title</label>
+            <label for="text2">Name</label>
+            <label for="tel">Phone number</label>
+            <label for="email">Email address</label>
+            <label for="url">Your website</label>
+            <label for="number">Nr. of items to order</label>
+            <label for="range"> Lenght</label>
+            <label for="date"> Delivery date</label>
+            <label for="time">Time of delivery</label>
+            <label for="color">Color of the item</label>
+            </pre>
+
+        </div>
+        <div style="border: 1px solid red; width: 70%; height: inherit; float: left;">
+            <input type="text" id="text">
+            <input type="text" id="text2">
+            <input type="tel" id="tel">(optional)
+            <input type="email" id="email">
+            <input type="url" id="url">(optional)
+            <input type="number" id="number">(1-10)
+            <input type="range" id="range">1m (in 10cm increments)
+            <input type="date" id="date">(minimum 16 December 2010)
+            <input type="time" id="time">(in 30 min increments)
+            <input type="color" id="color">(default red)
+        </div>
+        <div style="clear: both;">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+</div>
+</div>
+</body>
+</html>

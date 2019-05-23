@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Namu darbas Nr.10</title>
+</head>
+<style>
+    body, html {
+        width: 100%;
+        height: 100%;
+        background-color: #262626;
+        margin: 25px auto;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    div {
+        margin: auto;
+    }
+
+    input, textarea {
+        width: 100%;
+
+    }
+    table {
+        table-layout: fixed ;
+        width: 100% ;
+    }
+
+    .align-left {
+        text-align: left;
+    }
+    .align-right {
+        text-align: right;
+    }
+
+</style>
+<body>
+
+<div style="padding: 15px; border: 1px solid black; width: 60%; height: 60%; background-color: #d4ffd5">
+    <form action="/action_page.php">
+        <table align="center">
+        <tr>
+            <th class="align-right"><label for="text" >Title</label></th>
+            <th class="align-left"><input type="text" list="list" id="text" placeholder="Select one or enter your own">
+                <datalist id="list">
+                    <option value="First">
+                    <option value="Second">
+                    <option value="Third">
+                </datalist>
+            </th>
+        </tr>
+            <tr>
+                <th class="align-right"><label for="text2">Name</label></th>
+                <th class="align-left"><input type="text" id="text2" placeholder="John Doe"></th>
+            </tr>
+            <tr>
+                <th class="align-right"><label for="tel">Phone number</label></th>
+                <th class="align-left"><input type="tel" id="tel" value="+370" placeholder="+3706 58 87464"></th>
+                <th class="align-left">(optional)</th>
+            </tr>
+            <tr>
+                <th class="align-right"><label for="email">Email address</label></th>
+                <th class="align-left"><input type="email" id="email" placeholder="Email@email.com"></th>
+            </tr>
+            <tr>
+                <th class="align-right"><label for="url">Your website</label></th>
+                <th class="align-left"><input type="url" id="url" placeholder="www.w3schools.com"></th>
+                <th class="align-left">(optional)</th>
+            </tr>
+            <tr>
+                <th class="align-right"><label for="number">Nr. of items to order</label></th>
+                <th class="align-left"><input type="number" id="number" min="1" max="10" step="1" value="6"></th>
+                <th class="align-left">(1-10)</th>
+            </tr>
+
+            <tr>
+            <th class="align-right"><label for="range">Lenght</label></th>
+            <th class="align-left"><input type="range" id="range" name="points" min="1" max="10" step="1" value="6"></th>
+                <th class="align-left">1m (in 10cm increments)</th>
+        </tr>
+            <tr>
+                <th class="align-right"><label for="date"> Delivery date</label></th>
+                <th class="align-left"><input type="date" id="date" min="2010-12-16" value="2010-12-16"></th>
+                <th class="align-left">(minimum 16 December 2010)</th>
+            </tr>
+            <tr>
+                <th class="align-right"><label for="time">Time of delivery</label></th>
+                <th class="align-left"><input type="time" id="time" step="1800" value="15:30"></th>
+                <th class="align-left">(in 30 min increments)</th>
+            </tr>
+            <tr>
+                <th class="align-right"><label for="color">Color of the item</label></th>
+                <th class="align-left"><input type="color" id="color" value="#ff0000"></th>
+                <th class="align-left">(default red)</th>
+        </table>
+        <div style="width: 50%;">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+<div style="width: 50%;">
+<input class="align-right" type="text" placeholder="Search.." name="search">
+            <button class="align-left" type="submit">GO</button>
+
+</div>
+</div>
+</div>
+</body>
+</html>
