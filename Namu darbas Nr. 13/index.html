@@ -5,15 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namu darbas Nr. 13</title>
     <script>
-
-        length = 0;
-        breadth = 0;
         function perimeter() {
             var length = document.getElementById("length").value;
             var breadth = document.getElementById("breadth").value;
             var perimeter = 2 * (+length + +breadth);
             var m = perimeter.toFixed(2);
-
 
             document.getElementById("perimeter").innerHTML = m ;
         }
@@ -35,7 +31,6 @@
 
             document.getElementById("diagonal").innerHTML = l ;
         }
-
     </script>
     <style>
         table, th, tr, td {
