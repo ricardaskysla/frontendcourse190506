@@ -6,12 +6,13 @@
     <title>Namu darbas Nr. 13</title>
     <script>
 
+        length = 0;
+        breadth = 0;
         function perimeter() {
             var length = document.getElementById("length").value;
             var breadth = document.getElementById("breadth").value;
-            var perimeter = 2 * (length + breadth);
-            var x = perimeter;
-            var m = x.toFixed(2);
+            var perimeter = 2 * (+length + +breadth);
+            var m = perimeter.toFixed(2);
 
 
             document.getElementById("perimeter").innerHTML = m ;
@@ -21,8 +22,7 @@
             var length = document.getElementById("length").value;
             var breadth = document.getElementById("breadth").value;
             var area = length * breadth;
-            var y = area;
-            var n = y.toFixed(2);
+            var n = area.toFixed(2);
 
             document.getElementById("area").innerHTML = n ;
         }
@@ -31,8 +31,7 @@
             var length = document.getElementById("length").value;
             var breadth = document.getElementById("breadth").value;
             var diagonal = Math.sqrt((length * length) + (breadth * breadth));
-            var z = diagonal;
-            var l = z.toFixed(2);
+            var l = diagonal.toFixed(2);
 
             document.getElementById("diagonal").innerHTML = l ;
         }
