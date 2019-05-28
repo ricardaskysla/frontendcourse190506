@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namu darbas Nr. 13</title>
     <script>
+
+
+        // document.getElementById('forma').addEventListener("submit", function (event) {
+        //     event.preventDefault();
+        //     return false;
+        // });
+
         function perimeter() {
 
             var length = document.getElementById("length").value;
@@ -38,6 +45,7 @@
 
             document.getElementById("diagonal").innerHTML = l ;
         }
+
     </script>
     <style>
         table, th, tr, td {
@@ -45,10 +53,13 @@
             border-collapse: collapse;
             padding: 8px;
         }
+
     </style>
 </head>
-
+<!---->
 <body>
+<form id="forma" onsubmit="return false;">
+<!--<form id="forma">-->
 <table align="center">
     <tr>
         <td>Plotis</td>
@@ -60,8 +71,9 @@
     </tr>
     <tr>
         <td>Skaičiuoti atsakymą:</td>
-        <td><button onclick="perimeter(); area(); diagonal()">Skaičiuoti</button></td>
+        <td><button type="submit" onclick="perimeter(); area(); diagonal()">Skaičiuoti</button></td>
     </tr>
+
     <tr >
         <th><h1>Perimetras</h1></th>
         <th><h1 id="perimeter"> </h1></th>
@@ -74,6 +86,8 @@
         <th><h1>Istrižainė</h1></th>
         <th><h1 id="diagonal"> </h1></th>
     </tr>
+
 </table>
+</form>
 </body>
 </html>
