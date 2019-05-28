@@ -6,9 +6,12 @@
     <title>Namu darbas Nr. 13</title>
     <script>
         function perimeter() {
+
             var length = document.getElementById("length").value;
             var breadth = document.getElementById("breadth").value;
-            var perimeter = 2 * (+length + +breadth);
+            length = parseFloat(length);
+            breadth = parseFloat(breadth);
+            var perimeter = 2 * (length + breadth);
             var m = perimeter.toFixed(2);
 
             document.getElementById("perimeter").innerHTML = m ;
@@ -17,6 +20,8 @@
         function area() {
             var length = document.getElementById("length").value;
             var breadth = document.getElementById("breadth").value;
+            length = parseFloat(length);
+            breadth = parseFloat(breadth);
             var area = length * breadth;
             var n = area.toFixed(2);
 
@@ -26,6 +31,8 @@
         function diagonal() {
             var length = document.getElementById("length").value;
             var breadth = document.getElementById("breadth").value;
+            length = parseFloat(length);
+            breadth = parseFloat(breadth);
             var diagonal = Math.sqrt((length * length) + (breadth * breadth));
             var l = diagonal.toFixed(2);
 
@@ -45,11 +52,11 @@
 <table align="center">
     <tr>
         <td>Plotis</td>
-        <td><input type="breadth" id="breadth" value="0"></td>
+        <td><input type="text" id="breadth" value="0"></td>
     </tr>
     <tr>
         <td>Ilgis</td>
-        <td><input type="length" id="length" value="0"></td>
+        <td><input type="text" id="length" value="0"></td>
     </tr>
     <tr>
         <td>Skaičiuoti atsakymą:</td>
