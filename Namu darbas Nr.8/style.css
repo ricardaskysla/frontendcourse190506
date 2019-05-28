@@ -1,3 +1,6 @@
+html {
+    width: 100%;
+}
 body {
     background-color: #282828;
     margin-top: 20px;
@@ -5,6 +8,7 @@ body {
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 .navi {
@@ -13,6 +17,21 @@ body {
     color: #9f9f9f;
     text-align: center;
 }
+ul {
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+    display: block;
+    color:#9f9f9f;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
 /*BEGIN:Links*/
 i {
     width: 30px;
