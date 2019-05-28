@@ -27,11 +27,9 @@
     top: 25%;
     border-left: 1px solid grey;
 }
-
 a:link {
     text-decoration: none;
 }
-
 .info {
     position: relative;
     box-sizing: border-box;
@@ -43,5 +41,4 @@ a:link {
     top: 25%;
     border-right: 1px solid grey;
     border-left: 1px solid grey;
-
 }
