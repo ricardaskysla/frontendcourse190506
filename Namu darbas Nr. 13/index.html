@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namu darbas Nr. 13</title>
+    <script>
+
+        function perimeter() {
+            var length = document.getElementById("length").value;
+            var breadth = document.getElementById("breadth").value;
+            var perimeter = 2 * (length + breadth);
+            var x = perimeter;
+            var m = x.toFixed(2);
+
+
+            document.getElementById("perimeter").innerHTML = m ;
+        }
+
+        function area() {
+            var length = document.getElementById("length").value;
+            var breadth = document.getElementById("breadth").value;
+            var area = length * breadth;
+            var y = area;
+            var n = y.toFixed(2);
+
+            document.getElementById("area").innerHTML = n ;
+        }
+
+        function diagonal() {
+            var length = document.getElementById("length").value;
+            var breadth = document.getElementById("breadth").value;
+            var diagonal = Math.sqrt((length * length) + (breadth * breadth));
+            var z = diagonal;
+            var l = z.toFixed(2);
+
+            document.getElementById("diagonal").innerHTML = l ;
+        }
+
+    </script>
+    <style>
+        table, th, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+<table align="center">
+    <tr>
+        <td>Plotis</td>
+        <td><input type="breadth" id="breadth" value="0"></td>
+    </tr>
+    <tr>
+        <td>Ilgis</td>
+        <td><input type="length" id="length" value="0"></td>
+    </tr>
+    <tr>
+        <td>Skaičiuoti atsakymą:</td>
+        <td><button onclick="perimeter(); area(); diagonal()">Skaičiuoti</button></td>
+    </tr>
+    <tr >
+        <th><h1>Perimetras</h1></th>
+        <th><h1 id="perimeter"> </h1></th>
+    </tr>
+    <tr >
+        <th><h1>Plotas</h1></th>
+        <th><h1 id="area"> </h1></th>
+    </tr>
+    <tr >
+        <th><h1>Istrižainė</h1></th>
+        <th><h1 id="diagonal"> </h1></th>
+    </tr>
+</table>
+</body>
+</html>
