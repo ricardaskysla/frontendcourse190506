@@ -1,0 +1,9 @@
+$variable: red;
+$variable2: blue;
+
+body {
+  background: $variable;
+}
+
+@import 'page.scss';
+@import 'variables';
