@@ -11,13 +11,11 @@
         //     event.preventDefault();
         //     return false;
         // });
-
+        //
         function perimeter() {
 
-            var length = document.getElementById("length").value;
-            var breadth = document.getElementById("breadth").value;
-            length = parseFloat(length);
-            breadth = parseFloat(breadth);
+            var length = parseFloat(document.getElementById("length").value);
+            var breadth = parseFloat(document.getElementById("breadth").value);
             var perimeter = 2 * (length + breadth);
             var m = perimeter.toFixed(2);
 
@@ -25,10 +23,8 @@
         }
 
         function area() {
-            var length = document.getElementById("length").value;
-            var breadth = document.getElementById("breadth").value;
-            length = parseFloat(length);
-            breadth = parseFloat(breadth);
+            var length = parseFloat(document.getElementById("length").value);
+            var breadth = parseFloat(document.getElementById("breadth").value);
             var area = length * breadth;
             var n = area.toFixed(2);
 
@@ -36,10 +32,8 @@
         }
 
         function diagonal() {
-            var length = document.getElementById("length").value;
-            var breadth = document.getElementById("breadth").value;
-            length = parseFloat(length);
-            breadth = parseFloat(breadth);
+            var length = parseFloat(document.getElementById("length").value);
+            var breadth = parseFloat(document.getElementById("breadth").value);
             var diagonal = Math.sqrt((length * length) + (breadth * breadth));
             var l = diagonal.toFixed(2);
 
